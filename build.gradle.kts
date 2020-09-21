@@ -33,7 +33,7 @@ val slf4jVersion = "1.7.7"
 val serenityCoreVersion = "2.3.4"
 val serenityCucumberVersion = "2.3.4"
 val junitVersion = "4.12"
-val assertJVersion = "3.8.0"
+val assertJVersion = "3.17.2"
 val logbackVersion = "1.2.3"
 
 dependencies {
