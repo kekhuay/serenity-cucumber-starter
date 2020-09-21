@@ -33,9 +33,9 @@ ext {
 }
 
 dependencies {
-    compile "ch.qos.logback:logback-classic:${logbackVersion}"
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
 
-    testCompile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-cucumber6:${serenityCucumberVersion}",
             "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
