@@ -57,4 +57,10 @@ tasks.named<Test>("test") {
     finalizedBy("aggregate")
 }
 
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
 gradle.startParameter.isContinueOnFailure = true
